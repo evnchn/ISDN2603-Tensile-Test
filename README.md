@@ -4,7 +4,7 @@ Tensile test data parsing and analysis
 ## Usage
 
 1. Manually install needed dependencies.
-2. Update `reader.py` to confirm `corss_sectional_areas` well-defined. 
+2. Update `reader.py` to confirm `cross_sectional_areas` well-defined. 
 3. Run `reader.py` with .dat files in the directory.
 4. Zoom in repetitively at required points, such as proof point, fracture point, if required.
 

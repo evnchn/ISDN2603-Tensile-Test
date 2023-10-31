@@ -89,7 +89,7 @@ def plot_data(data, title="Specimen.dat", fit_n=10, area=6.4):
     plt.show()
 
 
-corss_sectional_areas = {
+cross_sectional_areas = {
     "Acrylic.dat": 8 * 3,
     "Aluminium.dat": 8 * 0.8,
     "StainlessSteel.dat": 8 * 0.8,
@@ -104,4 +104,4 @@ for filename in glob("*.dat"):
     # print(result)
 
     # Usage example
-    plot_data(result, filename, 10, corss_sectional_areas[filename])
+    plot_data(result, filename, 10, cross_sectional_areas[filename])
